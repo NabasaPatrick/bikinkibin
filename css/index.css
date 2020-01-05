@@ -42,7 +42,7 @@ body {
 
 .header .menu li:last-child {
     /* float: right; */
-    font-size: 18pt;
+    font-size: 18px;
     display: inline-block;
     margin-right: 0;
 }
