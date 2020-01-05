@@ -1,0 +1,79 @@
+body {
+    background-image: url("/patrick/code/test/pic/cover.jpg");
+    background-repeat: no-repeat;
+    /* position: relative; */
+    background-position: center top;
+    background-size: cover;
+    /* background-position: right top;     */
+}
+
+.layer {
+    /* background-color: rgba(0, 0, 0, 0.1); */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    color: #fff;
+    margin-top: 5px;
+}
+
+.header .menu{
+    margin: auto;
+    width: 50%;
+    padding: 20px;
+}
+
+.header .menu ul{
+    list-style-type: none;
+    overflow: hidden;
+    text-align: center;
+}
+
+.header .menu li {
+    /* float: right; */
+    font-size: 18px;
+    display: inline-block;
+    margin-right: 100px;
+}
+
+.header .menu li:last-child {
+    /* float: right; */
+    font-size: 18pt;
+    display: inline-block;
+    margin-right: 0;
+}
+
+.body .logo-img {
+    top: 55%;
+    left: 50%;
+    position: fixed;
+    transform: translate(-50%, -50%);
+}
+
+.body ,.logo-img img {
+    text-align: center;
+}
+
+.body .logo-img .title-web{
+    text-align: center;
+    color: #fff;
+    font-size: 90px;
+    margin-top: 20px;
+}
+
+.body .logo-img .btn-shop {
+    text-align: center;
+    margin-top: 10px;
+}
+.body .logo-img .btn-shop button{
+    background: rgba(0,0,0,0.2);
+    background-repeat:no-repeat;
+    border: 2px solid #fff;
+    cursor:pointer;
+    overflow: hidden; 
+    color: #fff;
+}
